@@ -1,0 +1,27 @@
+.page-header{
+display: flex;
+align-content: center;
+padding-left: 215px;
+padding-right: 215px;
+}
+
+.nav__list{
+list-style: none;
+display: flex;
+flex-direction: row;
+gap: 50px;
+}
+.nav__list--contacts{
+    gap: 10px;
+    flex-grow: 1;
+    justify-content: flex-end;}
+    
+.nav__item{
+    text-decoration: none;
+    color: var(--subtitle-color);
+}
+.nav__link{
+    background-color: green($color: #000000);
+    text-decoration: none;
+    color: var(--subtitle-color);
+}
